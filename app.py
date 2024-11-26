@@ -76,10 +76,7 @@ def GetPDFText(my_pdf):
         data = ""
     return data
 
-st.title("Welcome to :violet[T.E.D.D.Y.]")
-st.subheader("Text-based Early Distress Detector for Youth", anchor="welcome-to-t-e-d-d-y")
-st.caption("In the sidebar, enter any sufficient amount of text* that is reflective of a person's thoughts: essays, reflections, and chat conversations work best. T.E.D.D.Y. will use artificial intelligence to display sentences that may be a cause for concern.\n :red[T.E.D.D.Y. is not meant to be used as a diagnostic tool] - it is designed to give you a general idea of whether someone in your school or workplace might need more emotional support.")
-st.caption("*:violet[A note to our testers:] Our research shows that the sentiments expressed in actual student data are subtle. :red[Thus, arbitrary or made-up statements for testing do not yield good results.] If you do not have actual student data for testing, we recommend searching for sample student essays (e.g., blog posts, college admission essay samples, etc.) online.")
+st.title("Welcome to :violet[DEPTH – Depression Evaluation and Predictive Tracking for Health]")
 st.write("\n")
 
 col1, col2, col3, col4 = st.columns(4)
@@ -106,5 +103,4 @@ with st.sidebar:
     submit = st.button("Submit Text", on_click=Display(essay))
     uploaded_file = st.file_uploader('Or, upload a PDF file:', type="pdf")
     submit2 = st.button("Submit File", on_click=Display(GetPDFText(uploaded_file)))
-    st.write("[Learn more about T.E.D.D.Y!](https://teddytechnovation.wordpress.com/)")
-    st.write("[Help us improve!](https://forms.gle/eAYpKmd9udkdFUir6)")
+    st.write("[Immediate Help Resources](https://www.nimh.nih.gov/health/find-help)")
