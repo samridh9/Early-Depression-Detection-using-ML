@@ -16,3 +16,15 @@
   <li><code>danger_words.py</code>: Contains keywords associated with depressive language.</li>
   <li>Pre-trained models (<code>logistic_model.sav</code>, <code>xgb_model.sav</code>): Used for predictions.</li>
 </ul>
+
+<h2>Screenshots</h2>
+<ul>
+  <li><strong>Homepage Interface</strong>:</li>
+  <img src="./Homepage Interface.png" alt="Homepage Interface" width="700">
+
+  <li><strong>Chatbot Interaction</strong>:</li>
+  <img src="./Chatbot Interaction.png" alt="Chatbot Interaction" width="700">
+
+  <li><strong>Text Submission Example</strong>:</li>
+  <img src="./Text Submission Example.png" alt="Text Submission Example" width="700">
+</ul>
