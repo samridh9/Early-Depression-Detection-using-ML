@@ -27,4 +27,7 @@
 
   <li><strong>Text Submission Example</strong>:</li>
   <img src="./Text Submission Example.png" alt="Text Submission Example" width="700">
+
+  <li><strong>PDF Analysis</strong>:</li>
+  <img src="./PDF Analysis.png" alt="PDF Analysis" width="700">
 </ul>
